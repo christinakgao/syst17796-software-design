@@ -12,7 +12,7 @@ import java.util.Scanner;
 public class StudentList {
     
     public static void main (String[] args) {
-        Student[] list = new Student[16];
+        Student[] list = new Student[6];
 
         Scanner input = new Scanner(System.in);
         
