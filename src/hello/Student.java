@@ -12,6 +12,7 @@ public class Student {
     
     private String sID;
     private String sName;
+    private String sAddress;
 
     public Student(String sID, String sName) {
         this.sID = sID;
@@ -33,6 +34,15 @@ public class Student {
     public void setsName(String sName) {
         this.sName = sName;
     }
+
+    public String getAddress() {
+        return sAddress;
+    }
+
+    public void setAddress(String sAddress) {
+        this.sAddress = sAddress;
+    }
+    
     
     
 }
